@@ -129,5 +129,9 @@ main {
 
 .about-info{
     text-align: center;
+    margin: 0px;
 }
 
+#what-i-do {
+    padding: 20px 150px;
+}
