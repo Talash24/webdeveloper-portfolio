@@ -99,7 +99,7 @@ nav a{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin-top: 130px;
+    margin: 130px;
 }
 
 .section-title {
@@ -114,8 +114,20 @@ nav a{
     text-align: center;
   
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; /* 166.667% */
-
+    
 }
+
+main {
+     max-width: 1140px;
+     margin: 0 auto;
+}
+
+.about-info-container {
+     display: flex;
+     justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
